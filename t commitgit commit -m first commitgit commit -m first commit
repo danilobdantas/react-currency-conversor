@@ -1,0 +1,139 @@
+warning: LF will be replaced by CRLF in package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/index.js.
+The file will have its original line endings in your working directory
+[1mdiff --git a/package-lock.json b/package-lock.json[m
+[1mindex 4b8fae3..41e69d1 100644[m
+[1m--- a/package-lock.json[m
+[1m+++ b/package-lock.json[m
+[36m@@ -1117,6 +1117,35 @@[m
+       "resolved": "https://registry.npmjs.org/@csstools/normalize.css/-/normalize.css-10.1.0.tgz",[m
+       "integrity": "sha512-ij4wRiunFfaJxjB0BdrYHIH8FxBJpOwNPhhAcunlmPdXudL1WQV1qoP9un6JsEBAgQH+7UXyyjh0g7jTxXK6tg=="[m
+     },[m
+[32m+[m[32m    "@fortawesome/fontawesome-common-types": {[m
+[32m+[m[32m      "version": "0.2.29",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.29.tgz",[m
+[32m+[m[32m      "integrity": "sha512-cY+QfDTbZ7XVxzx7jxbC98Oxr/zc7R2QpTLqTxqlfyXDrAJjzi/xUIqAUsygELB62JIrbsWxtSRhayKFkGI7MA=="[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "@fortawesome/fontawesome-svg-core": {[m
+[32m+[m[32m      "version": "1.2.29",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-1.2.29.tgz",[m
+[32m+[m[32m      "integrity": "sha512-xmPmP2t8qrdo8RyKihTkGb09RnZoc+7HFBCnr0/6ZhStdGDSLeEd7ajV181+2W29NWIFfylO13rU+s3fpy3cnA==",[m
+[32m+[m[32m      "requires": {[m
+[32m+[m[32m        "@fortawesome/fontawesome-common-types": "^0.2.29"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "@fortawesome/free-solid-svg-icons": {[m
+[32m+[m[32m      "version": "5.13.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-5.13.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-LQH/0L1p4+rqtoSHa9qFYR84hpuRZKqaQ41cfBQx8b68p21zoWSekTAeA54I/2x9VlCHDLFlG74Nmdg4iTPQOg==",[m
+[32m+[m[32m      "requires": {[m
+[32m+[m[32m        "@fortawesome/fontawesome-common-types": "^0.2.29"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "@fortawesome/react-fontawesome": {[m
+[32m+[m[32m      "version": "0.1.11",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@fortawesome/react-fontawesome/-/react-fontawesome-0.1.11.tgz",[m
+[32m+[m[32m      "integrity": "sha512-sClfojasRifQKI0OPqTy8Ln8iIhnxR/Pv/hukBhWnBz9kQRmqi6JSH3nghlhAY7SUeIIM7B5/D2G8WjX0iepVg==",[m
+[32m+[m[32m      "requires": {[m
+[32m+[m[32m        "prop-types": "^15.7.2"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+     "@hapi/address": {[m
+       "version": "2.1.4",[m
+       "resolved": "https://registry.npmjs.org/@hapi/address/-/address-2.1.4.tgz",[m
+[36m@@ -1356,10 +1385,30 @@[m
+       "resolved": "https://registry.npmjs.org/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz",[m
+       "integrity": "sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw=="[m
+     },[m
+[32m+[m[32m    "@popperjs/core": {[m
+[32m+[m[32m      "version": "2.4.2",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@popperjs/core/-/core-2.4.2.tgz",[m
+[32m+[m[32m      "integrity": "sha512-JlGTGRYHC2QK+DDbePyXdBdooxFq2+noLfWpRqJtkxcb/oYWzOF0kcbfvvbWrwevCC1l6hLUg1wHYT+ona5BWQ=="[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "@restart/context": {[m
+[32m+[m[32m      "version": "2.1.4",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@restart/context/-/context-2.1.4.tgz",[m
+[32m+[m[32m      "integrity": "sha512-INJYZQJP7g+IoDUh/475NlGiTeMfwTXUEr3tmRneckHIxNolGOW9CTq83S8cxq0CgJwwcMzMJFchxvlwe7Rk8Q=="[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "@restart/hooks": {[m
+[32m+[m[32m      "version": "0.3.25",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@restart/hooks/-/hooks-0.3.25.tgz",[m
+[32m+[m[32m      "integrity": "sha512-m2v3N5pxTsIiSH74/sb1yW8D9RxkJidGW+5Mfwn/lHb2QzhZNlaU1su7abSyT9EGf0xS/0waLjrf7/XxQHUk7w==",[m
+[32m+[m[32m      "requires": {[m
+[32m+[m[32m        "lodash": "^4.17.15",[m
+[32m+[m[32m        "lodash-es": "^4.17.15"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+     "@sheerun/mutationobserver-shim": {[m
+       "version": "0.3.3",[m
+       "resolved": "https://registry.npmjs.org/@sheerun/mutationobserver-shim/-/mutationobserver-shim-0.3.3.tgz",[m
+[31m-      "integrity": "sha512-DetpxZw1fzPD5xUBrIAoplLChO2VB8DlL5Gg+I1IR9b2wPqYIca2WSUxL5g1vLeR4MsQq1NeWriXAVffV+U1Fw=="[m
+[32m+[m[32m      "integrity": "sha512-DetpxZw1fzPD5xUBrIAoplLChO2VB8DlL5Gg+I1IR9b2wPqYIca2WSUxL5g1vLeR4MsQq1NeWriXAVffV+U1Fw==",[m
+[32m+[m[32m      "dev": true[m
+     },[m
+     "@svgr/babel-plugin-add-jsx-attribute": {[m
+       "version": "4.2.0",[m
+[36m@@ -1474,6 +1523,7 @@[m
+       "version": "6.16.0",[m
+       "resolved": "https://registry.npmjs.org/@testing-library/dom/-/dom-6.16.0.tgz",[m
+       "integrity": "sha512-lBD88ssxqEfz0wFL6MeUyyWZfV/2cjEZZV3YRpb2IoJRej/4f1jB0TzqIOznTpfR1r34CNesrubxwIlAQ8zgPA==",[m
+[32m+[m[32m      "dev": true,[m
+       "requires": {[m
+         "@babel/runtime": "^7.8.4",[m
+         "@sheerun/mutationobserver-shim": "^0.3.2",[m
+[36m@@ -1488,6 +1538,7 @@[m
+           "version": "25.5.0",[m
+           "resolved": "https://registry.npmjs.org/@jest/types/-/types-25.5.0.tgz",[m
+           "integrity": "sha512-OXD0RgQ86Tu3MazKo8bnrkDRaDXXMGUqd+kTtLtK1Zb7CRzQcaSRPPPV37SvYTdevXEBVxe0HXylEjs8ibkmCw==",[m
+[32m+[m[32m          "dev": true,[m
+           "requires": {[m
+             "@types/istanbul-lib-coverage": "^2.0.0",[m
+             "@types/istanbul-reports": "^1.1.1",[m
+[36m@@ -1499,6 +1550,7 @@[m
+           "version": "15.0.5",[m
+           "resolved": "https://registry.npmjs.org/@types/yargs/-/yargs-15.0.5.tgz",[m
+           "integrity": "sha512-Dk/IDOPtOgubt/IaevIUbTgV7doaKkoorvOyYM2CMwuDyP89bekI7H4xLIwunNYiK9jhCkmc6pUrJk3cj2AB9w==",[m
+[32m+[m[32m          "dev": true,[m
+           "requires": {[m
+             "@types/yargs-parser": "*"[m
+           }[m
+[36m@@ -1507,6 +1559,7 @@[m
+           "version": "4.2.1",[m
+           "resolved": "https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.2.1.tgz",[m
+           "integrity": "sha512-9VGjrMsG1vePxcSweQsN20KY/c4zN0h9fLjqAbwbPfahM3t+NL+M9HC8xeXG2I8pX5NoamTGNuomEUFI7fcUjA==",[m
+[32m+[m[32m          "dev": true,[m
+           "requires": {[m
+             "@types/color-name": "^1.1.1",[m
+             "color-convert": "^2.0.1"[m
+[36m@@ -1516,6 +1569,7 @@[m
+           "version": "4.2.2",[m
+           "resolved": "https://registry.npmjs.org/aria-query/-/aria-query-4.2.2.tgz",[m
+           "integrity": "sha512-o/HelwhuKpTj/frsOsbNLNgnNGVIFsVP/SW2BSF14gVl7kAfMOJ6/8wUAUvG1R1NHKrfG+2sHZTu0yauT1qBrA==",[m
+[32m+[m[32m          "dev": true,[m
+           "requires": {[m
+             "@babel/runtime": "^7.10.2",[m
+             "@babel/runtime-corejs3": "^7.10.2"[m
+[36m@@ -1525,6 +1579,7 @@[m
+           "version": "3.0.0",[m
+           "resolved": "https://registry.npmjs.org/chalk/-/chalk-3.0.0.tgz",[m
+           "integrity": "sha512-4D3B6Wf41KOYRFdszmDqMCGq5VV/uMAB273JILmO+3jAlh8X4qDtdtgCR3fxtbLEMzSx22QdhnDcJvu2u1fVwg==",[m
+[32m+[m[32m          "dev": true,[m
+           "requires": {[m
+             "ansi-styles": "^4.1.0",[m
+             "supports-color": "^7.1.0"[m
+[36m@@ -1534,6 +1589,7 @@[m
+           "version": "2.0.1",[m
+           "resolved": "https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz",[m
+           "integrity": "sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==",[m
+[32m+[m[32m          "dev": true,[m
+           "requires": {[m
+             "color-name": "~1.1.4"[m
+           }[m
+[36m@@ -1541,17 +1597,20 @@[m
+         "color-name": {[m
+           "version": "1.1.4",[m
+           "resolved": "https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz",[m
+[31m-          "integrity": "sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuL
